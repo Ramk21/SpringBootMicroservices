@@ -41,14 +41,14 @@ public class Employee {
 	@Column(name = "doj")
 	private Date doj;
 
-	/*public Employee(Integer empId, String firstName, String lastName, Date doj) {
+	public Employee(Integer empId, String firstName, String lastName, Date doj) {
 		super();
 		this.empId = empId;
 		this.firstName = firstName;
 		this.lastName = lastName;
 		this.doj = doj;
 	}
-	public Employee() {}
+//	public Employee() {}
 	
 
 	public Integer getEmpId() {
@@ -81,7 +81,7 @@ public class Employee {
 
 	public void setDoj(Date doj) {
 		this.doj = doj;
-	}*/
+	}
 	
 	
 
